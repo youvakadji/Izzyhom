@@ -1,0 +1,45 @@
+.container {
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+.main {
+    color: rgb(0, 0, 0);
+    font-style: italic;
+}
+.annonce {    
+    width:1000px;
+    display: flex;
+    flex-wrap: wrap;
+    border: groove;
+    border-radius: 1rem;
+}
+.annonce:hover {
+    box-shadow:8px 8px 8px 8px grey;
+}
+p {
+    margin-top: 5px;
+}
+.img {
+    padding: 20px;
+    border-radius: 2rem
+}
+
+.lieu {
+    display: flex;
+    gap: 5px;
+}
+
+.description {
+    display: flex;
+    gap: 10px;
+}
+
+.content h2 {
+    display: flex;
+    justify-content: flex-start;
+}
+.type {
+    display: flex;
+    justify-content: flex-start;
+}
