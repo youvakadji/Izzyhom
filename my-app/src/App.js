@@ -3,6 +3,8 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import { buttons } from "./data";
 import { getData, filterData } from "./services/services";
+
+
 export default function App() {
   const [filtredData, setFiltredData] = useState(null);
   useEffect(() => {
@@ -32,7 +34,7 @@ export default function App() {
         className="search"
         placeholder="Localité"
         onChange={(e) => setQuery(e.target.value.toLowerCase())}
-      />    
+      />
       <div className='card'>
       {filtredData &&
         filtredData.filter((asd) =>
